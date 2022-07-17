@@ -230,7 +230,7 @@ body {
   display: flex;
   gap: 30px;
 }
-.container-team figcaption>ul {
+.container-team figcaption > ul {
   display: flex;
   gap: 10px;
   justify-content: center;
@@ -243,13 +243,13 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  fill: hsla(227, 6%, 70%, 1);
 }
 .container-team-icons li:hover {
- background-color: var(--accent-color);
+  background-color: var(--accent-color);
+  fill: hsla(0, 0%, 100%, 1);
+  cursor: pointer;
 }
-/* .team-social-icons {
-  fill: hsla(227, 6%, 70%, 1);
-} */
 .container-team-worker {
   background-color: var(--white-color);
   border-bottom-right-radius: 4px;
