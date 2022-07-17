@@ -82,28 +82,23 @@ body {
 .main-navigation-contact a {
   color: var(--descriptions-color);
   margin-right: 50px;
+  fill: var(--descriptions-color);
+  display: flex;
+  gap: 10px;
+  align-items: center;
 }
 .main-navigation-contact a[href="tel:+48111111111"] {
   margin-right: 0;
 }
 .main-navigation a:hover {
   color: var(--accent-color);
+  fill: var(--accent-color);
 }
 .main-navigation a:focus {
   color: var(--accent-color);
+  fill: var(--accent-color);
 }
-.icon-contact-mail {
-  --contact-icon-color: currentColor;
-  margin-right: 10px;
-  display: inline-block;
-}
-.icon-contact-tel {
-  --contact-icon-color: currentColor;
-  width: 10px;
-  height: 16px;
-  margin-right: 10px;
-  display: inline-block;
-}
+
 /* footer styles */
 
 .footer-wrapper {
