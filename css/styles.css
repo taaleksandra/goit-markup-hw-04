@@ -111,6 +111,12 @@ body {
   padding-top: 60px;
   padding-bottom: 60px;
 }
+.footer-columns {
+  display: flex;
+}
+.footer-columns-adress {
+  margin-right: 70px;
+}
 .logo-second-footer {
   color: var(--white-color);
 }
@@ -121,6 +127,7 @@ body {
   line-height: 1.7;
   vertical-align: top;
   letter-spacing: 0.25px;
+  margin-top: 20px;
 }
 .address-link {
   text-decoration: none;
@@ -136,6 +143,36 @@ body {
 }
 .address-link:focus {
   color: var(--accent-color);
+}
+.footer-socials-icons {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+.footer-socials h4 {
+  font-weight: 700;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 1.1428;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--white-color);
+  margin-bottom: 20px;
+}
+.footer-socials-icons li {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  fill: var(--white-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-socials-icons li:hover,
+.footer-socials-icons li:active {
+  cursor: pointer;
+  background-color: var(--accent-color);
 }
 
 /* main-page main styles */
