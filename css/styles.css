@@ -6,6 +6,7 @@
   --background-light-color: #f5f4fa;
   --white-color: #ffffff;
   --black-color: #000000;
+  --clients-logo-color: hsla(227, 6%, 70%, 1);
 }
 
 *,
@@ -243,9 +244,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  fill: red;
+  fill: hsla(227, 6%, 70%, 1);
 }
-.container-team-icons li:hover {
+.container-team-icons li:hover,
+.container-team-icons li:active {
   background-color: var(--accent-color);
   fill: hsla(0, 0%, 100%, 1);
   cursor: pointer;
@@ -276,6 +278,28 @@ body {
   color: var(--descriptions-color);
   letter-spacing: 0.03em;
   padding-bottom: 16px;
+}
+
+.container-clients-list {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+.container-clients-list li {
+  width: 170px;
+  height: 92px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--clients-logo-color);
+  border-radius: 4px;
+  fill: var(--clients-logo-color);
+}
+.container-clients-list li:hover,
+.container-clients-list li:active {
+  border: 1px solid var(--accent-color);
+  fill: var(--accent-color);
+  cursor: pointer;
 }
 
 /* portfolio-page styles */
